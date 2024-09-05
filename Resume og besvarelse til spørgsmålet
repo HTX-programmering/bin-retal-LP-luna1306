@@ -1,0 +1,42 @@
+Resume:
+- I comuputere er tal symbolisteret via tændt og slukket.
+->0 og 1
+
+- Normalt tæller vi via et 10-tals system, men hvordan kan vi tælle via et 2-tals system?
+
+- Binært forklaret:
+
+I 10-tals systemmet symbolisere hvert tal fra højre til venstre en værdi 10 gange større startende fra 1.
+-> Pladsens værde: 10^3   10^2   10^1   10^0
+   Tallet          1      0      4      4
+  Cifferets værdi  1000   0      40     4
+
+Binært er præcist det samm, hver plads er blot 2 gange større.
+->Pladsens værde:  2^3    2^2    2^1    2^0
+   Tallet          1      0      1      1
+  Cifferets værdi  8      0      2      1
+
+- Bit = En "celle" eller et ciffer (digit)
+
+- Byte = 8 bit
+
+- Den højest værdi for en byte er 255, men en byte kan representere 256, fordi 0 også er en værdi.
+
+- Pariets bit = Den færste bit (længst til højre) som fortæller om tallet er lige eller ulige.
+
+- Most significant bit = den længst tii venstre, som foræller om tallet er positivt eller negativt.
+
+
+Opgaven:
+
+Vindue:          1   2   3   4
+Tænst/slukket:   1   1   1   1
+Værdi:           1   2   4   8
+
+Ud fra vores skema, kan mab beregne hvert klokkeslet:
+
+kl: 3  = 1100 = Vindue 1 og 2
+Kl: 5  = 1010 = Vindue 1 og 3
+kl: 10 = 0101 = Vindue 2 og 4
+
+(det er binært spejlvendt)
