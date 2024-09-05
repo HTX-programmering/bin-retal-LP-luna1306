@@ -10,7 +10,7 @@ I 10-tals systemmet symbolisere hvert tal fra højre til venstre en værdi 10 ga
 -> Pladsens værde: 10^3   10^2   10^1   10^0
    Tallet          1      0      4      4
   Cifferets værdi  1000   0      40     4
-v
+
 Binært er præcist det samm, hver plads er blot 2 gange større.
 ->Pladsens værde:  2^3    2^2    2^1    2^0
    Tallet          1      0      1      1
